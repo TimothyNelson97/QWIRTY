@@ -1,1 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Qwirty</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
 
+  <body>
+    <div class="top-bar">
+      <div class="top-left">
+        <a href="#">Big Deals</a>
+        <a href="#">Top Brands</a>
+        <a href="#">Suggestions</a>
+        <a href="#">Help & Contact</a>
+      </div>
+
+      <div class="top-right">
+        <a href="#">Log In / Sign Up</a>
+        <a href="#">Account</a>
+        <span class="cart">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#e3e3e3">
+            <path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"></path></svg>
+    </span>
+      </div>
+    </div>
+
+    <header class="main-header">
+      <h1 class="logo">Qwirty</h1>
+      <input type="text" placeholder="Search..." class="search"/>
+      <div class="promo">0% Financing 24 Months</div>
+    </header>
+
+    <main class="content">
+      <aside class="sidebar">
+        <a>Clothing & Shoes</a>
+        <a>Electronics</a>
+        <a>Books</a>
+        <a>Food & Drinks</a>
+        <a>Appliances</a>
+        <a>Sports & Outdoor</a>
+        <a>Toys & Baby</a>
+        <a>Garden</a>
+      </aside>
+
+      <section class="products">
+        <div class="product">
+          <h2>Product Name</h2>
+          <img src="https://m.media-amazon.com/images/I/61ZAFI9EhEL._AC_UY900_.jpg"/>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Vel,
+            corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+            natus debitis quae cumque sequi. Architecto dolore laudantium ad
+            provident assumenda quae!
+          </p>
+          <div class="price-bar">
+            <span>Price: $0.99</span>
+            <span>
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#e3e3e3">
+                <path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+            </svg></span>
+          </div>
+        </div>
+
+        <div class="product">
+          <h2>Product Name</h2>
+          <img src="https://m.media-amazon.com/images/I/61ZAFI9EhEL._AC_UY900_.jpg"/>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Vel,
+            corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+            natus debitis quae cumque sequi. Architecto dolore laudantium ad
+            provident assumenda quae!
+          </p>
+          <div class="price-bar">
+            <span>Price: $0.99</span>
+                <span>
+                    <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#e3e3e3">
+                <path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+            </svg></span>
+          </div>
+        </div>
+
+        <div class="product">
+          <h2>Product Name</h2>
+          <img src="https://m.media-amazon.com/images/I/61ZAFI9EhEL._AC_UY900_.jpg"/>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Vel,
+            corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+            natus debitis quae cumque sequi. Architecto dolore laudantium ad
+            provident assumenda quae!
+          </p>
+          <div class="price-bar">
+            <span>Price: $0.99</span>
+                <span>
+                    <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#e3e3e3">
+                <path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg>
+          </svg></span>
+          </div>
+        </div>
+
+        <div class="product">
+          <h2>Product Name</h2>
+          <img src="https://m.media-amazon.com/images/I/61ZAFI9EhEL._AC_UY900_.jpg"/>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Vel,
+            corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+            natus debitis quae cumque sequi. Architecto dolore laudantium ad
+            provident assumenda quae!
+          </p>
+          <div class="price-bar">
+            <span>Price: $0.99</span>
+            <span>
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#e3e3e3">
+                <path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+            </svg></span>
+          </div>
+        </div>
+
+        <div class="product">
+          <h2>Product Name</h2>
+          <img src="https://m.media-amazon.com/images/I/61ZAFI9EhEL._AC_UY900_.jpg"/>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Vel,
+            corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+            natus debitis quae cumque sequi. Architecto dolore laudantium ad
+            provident assumenda quae!
+          </p>
+          <div class="price-bar">
+            <span>Price: $0.99</span>
+            <span>
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#e3e3e3">
+                <path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+            </svg></span>
+          </div>
+        </div>
+
+        <div class="product">
+          <h2>Product Name</h2>
+          <img src="https://m.media-amazon.com/images/I/61ZAFI9EhEL._AC_UY900_.jpg"/>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Vel,
+            corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+            natus debitis quae cumque sequi. Architecto dolore laudantium ad
+            provident assumenda quae!
+          </p>
+          <div class="price-bar">
+            <span>Price: $0.99</span>
+            <span>
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#e3e3e3">
+                <path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+            </svg></span>
+          </div>
+        </div>
+
+        <div class="product">
+          <h2>Product Name</h2>
+          <img src="https://m.media-amazon.com/images/I/61ZAFI9EhEL._AC_UY900_.jpg"/>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Vel,
+            corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+            natus debitis quae cumque sequi. Architecto dolore laudantium ad
+            provident assumenda quae!
+          </p>
+          <div class="price-bar">
+            <span>Price: $0.99</span>
+                <span>
+                    <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#e3e3e3">
+                <path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+            </svg></span>
+          </div>
+        </div>
+
+        <div class="product">
+          <h2>Product Name</h2>
+          <img src="https://m.media-amazon.com/images/I/61ZAFI9EhEL._AC_UY900_.jpg"/>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Vel,
+            corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+            natus debitis quae cumque sequi. Architecto dolore laudantium ad
+            provident assumenda quae!
+          </p>
+          <div class="price-bar">
+            <span>Price: $0.99</span>
+            <span>
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#e3e3e3">
+                <path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+            </svg>
+            </span>
+          </div>
+        </div>
+</section>
+</main>
+
+    <footer class="footer">
+      <div>
+        <h3>Customer Care</h3>
+        <p>Account</p>
+        <p>Orders</p>
+        <p>Policies</p>
+        <p>Credit</p>
+        <p>Help</p>
+      </div>
+
+      <div>
+        <h3>Sales</h3>
+        <p>Become a Seller</p>
+        <p>Manage Your Products</p>
+        <p>Advertise</p>
+      </div>
+
+      <div>
+        <h3>About Us</h3>
+        <p>Careers</p>
+        <p>Blog</p>
+        <p>Our History</p>
+        <p>Press Releases</p>
+        <p>Take a Tour</p>
+      </div>
+    </footer>
+  </body>
+</html>
